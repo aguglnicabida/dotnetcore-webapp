@@ -64,8 +64,7 @@ jobs:
           package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
 
 # For more samples to get started with GitHub Action workflows to deploy to Azure, refer to https://github.com/Azure/actions-workflow-samples
-
-    # Runs a set of commands using the runners shell
+# Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
