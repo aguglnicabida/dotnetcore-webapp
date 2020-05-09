@@ -33,7 +33,7 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }} 
           
-      # Added snyk para analizar 
+      # Added snyk para analizar SCM
       - name: Snyk
         uses: snyk/actions@0.1.1  
       
